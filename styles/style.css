@@ -93,7 +93,7 @@
 }
 /* Анимация для ссылки */
 .subtitle__link {
-  color: royalblue;
+  color: #2f80ed;
   overflow: hidden;
   background: linear-gradient(
     to right,
@@ -111,4 +111,28 @@
 }
 .subtitle__link:hover {
   background-position: 0 100%;
+}
+
+/* description
+ */
+
+.description {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns {
+  display: flex;
+  width: 80%;
+}
+.two-colomns__brief {
+  height: 175px;
+  background-color: aqua;
+}
+.main-text {
+}
+
+.h2 {
+  text-align: start;
 }
