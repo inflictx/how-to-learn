@@ -10,6 +10,7 @@
 }
 
 .header {
+  background-color: #f2f2f2;
   position: relative;
   height: 100vh;
   min-height: 600px;
@@ -52,6 +53,16 @@
   height: 32px;
 }
 
+.square {
+  top: 64px;
+  right: 0px;
+  position: absolute;
+  background-color: #2f80ed;
+  height: 568px;
+  width: 568px;
+  z-index: 1;
+}
+
 .main-illustration {
   bottom: 0px;
   right: 0px;
@@ -65,24 +76,39 @@
   z-index: 99;
   width: 730px;
   font-size: 102px;
+  font-weight: 600;
+  line-height: 96px;
   margin-left: 64px;
 }
 
 .subtitle {
   z-index: 98;
   font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
   width: 388px;
   position: absolute;
   bottom: 30px;
   left: 64px;
 }
-
-.square {
-  top: 64px;
-  right: 0px;
-  position: absolute;
-  background-color: #2f80ed;
-  height: 568px;
-  width: 568px;
-  z-index: 1;
+/* Анимация для ссылки */
+.subtitle__link {
+  color: royalblue;
+  overflow: hidden;
+  background: linear-gradient(
+    to right,
+    midnightblue,
+    rgb(154, 12, 243) 50%,
+    #2f80ed 50%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 400ms ease;
+  text-decoration: none;
+}
+.subtitle__link:hover {
+  background-position: 0 100%;
 }
