@@ -106,7 +106,7 @@
   -webkit-text-fill-color: transparent;
   background-size: 200% 100%;
   background-position: 100%;
-  transition: background-position 400ms ease;
+  transition: background-position 700ms ease;
   text-decoration: none;
 }
 .subtitle__link:hover {
@@ -115,24 +115,26 @@
 
 /* description
  */
-
 .description {
-  margin-top: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .two-columns {
   display: flex;
   width: 80%;
-}
-.two-colomns__brief {
-  height: 175px;
-  background-color: aqua;
-}
-.main-text {
+  min-width: 784px;
+  margin: auto;
 }
 
-.h2 {
-  text-align: start;
+.two-colomns__brief {
+  font-size: 18px;
+  line-height: 1.2rem;
+  font-weight: normal;
+}
+
+.two-columns__main-text {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
 }
