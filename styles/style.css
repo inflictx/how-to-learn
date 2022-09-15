@@ -10,6 +10,7 @@
 }
 
 .header {
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -34,25 +35,54 @@
 }
 /* header */
 .header {
-  background-color: aqua;
-  position: relative;
-  min-height: 600px;
-  max-height: 756px;
+  /* background-color: aqua; */
+  align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header__logo {
-  margin: 30px 0px 0px 64px;
-  background-image: url("/images/logo_place_header.svg");
+  top: 30px;
+  left: 64px;
+  z-index: 100;
   position: absolute;
+  padding-top: 10px;
+  background-image: url("/images/logo_place_header.svg");
   width: 228px;
   height: 32px;
 }
 
 .main-illustration {
-  background-color: beige;
   bottom: 0px;
   right: 0px;
   position: absolute;
   width: 765px;
   height: 608px;
+  z-index: 2;
+}
+
+.title {
+  z-index: 99;
+  width: 730px;
+  font-size: 102px;
+  margin-left: 64px;
+}
+
+.subtitle {
+  z-index: 98;
+  font-size: 18px;
+  width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+}
+
+.square {
+  top: 64px;
+  right: 0px;
+  position: absolute;
+  background-color: #2f80ed;
+  height: 568px;
+  width: 568px;
+  z-index: 1;
 }
