@@ -15,7 +15,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  margin-bottom: 100px;
+
   /* выше установили ограничения для секции */
 }
 
@@ -42,14 +42,14 @@
 }
 
 .header__logo {
+  width: 228px;
+  height: 32px;
   top: 30px;
   left: 64px;
   z-index: 100;
   position: absolute;
   padding-top: 10px;
   background-image: url("/images/logo_place_header.svg");
-  width: 228px;
-  height: 32px;
 }
 
 .header__square-pic {
@@ -117,7 +117,7 @@
 .description {
   display: flex;
   justify-content: center;
-  margin: 100px 0px;
+  padding-top: 100px;
 }
 
 .two-columns {
@@ -133,7 +133,6 @@
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
-  color: #2f80ed;
 }
 
 .two-columns__paragraph {
@@ -162,14 +161,16 @@
 
 .digits {
   text-align: center;
+  padding: 100px 0px;
 }
 
 .section-title {
+  text-align: center;
   font-size: 60px;
   line-height: 1.15;
   font-weight: 600;
   width: 60%;
-  margin: 100px auto 20px;
+  margin: 20px auto 0px;
 }
 
 .section-subtitle {
@@ -177,7 +178,7 @@
   line-height: 34px;
   font-weight: normal;
   width: 60%;
-  margin: 60px auto 0px;
+  margin: 20px auto 0px;
 }
 
 .heading {
@@ -204,17 +205,12 @@
   margin: 20px 0px 0px;
 }
 
-.inner__table {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
-}
-
 .table {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
   width: 1100px;
+  margin: auto;
 }
 
 .table__cell {
@@ -229,9 +225,7 @@
   display: flex;
   justify-content: center;
   height: 890px;
-  margin-top: 100px;
   background-color: #f2f2f2;
-  margin-bottom: 100px;
 }
 
 .feynman__text {
@@ -273,3 +267,27 @@
 }
 
 /* kaufman */
+
+.kaufman {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background-color: #1f1f1f;
+  color: #f2f2f2;
+  padding: 90px 0px;
+}
+
+.table__cell-theme-dark {
+  margin-top: 80px;
+  width: 200px;
+  z-index: 2;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -210px;
+  z-index: 1;
+  top: 0px;
+  width: 877px;
+  height: 877px;
+}
