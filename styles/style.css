@@ -165,7 +165,6 @@
 }
 
 .section-title {
-  text-align: center;
   font-size: 60px;
   line-height: 1.15;
   font-weight: 600;
@@ -289,5 +288,8 @@
   z-index: 1;
   top: 0px;
   width: 877px;
-  height: 877px;
+}
+
+.triangle {
+  width: 897px;
 }
