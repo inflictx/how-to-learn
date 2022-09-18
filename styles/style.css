@@ -280,11 +280,12 @@
   padding-bottom: 40px;
   background-color: #1f1f1f;
   color: #f2f2f2;
+  min-height: 350px;
 }
 .columns {
   margin: 0px auto;
   width: 90%;
-  min-height: 350px;
+
   display: flex;
   justify-content: space-between;
 }
@@ -296,12 +297,19 @@
   justify-content: space-between;
 }
 
-.logo {
+.footer__logo {
   background-image: url("/images/logo_place_footer.svg");
   position: static;
+  width: 228px;
+  height: 32px;
+  top: 30px;
+  left: 64px;
+  z-index: 100;
+  padding-top: 10px;
 }
 
 .footer-author {
+  text-align: left;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
