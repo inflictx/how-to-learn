@@ -274,7 +274,7 @@
   padding-bottom: 40px;
   background-color: #1f1f1f;
   color: #f2f2f2;
-  min-height: 350px;
+  min-height: 250px;
 }
 .columns {
   margin: 0px auto;
@@ -325,6 +325,7 @@
 
 .footer-content {
   list-style: none;
+  text-align: left;
 }
 
 .vk::before {
