@@ -205,13 +205,8 @@
 .feynman {
   position: relative;
   display: flex;
-<<<<<<< HEAD
   flex-direction: column;
   height: 890px;
-=======
-  justify-content: center;
-  min-height: 890px;
->>>>>>> 302defa4f7dc0784f1c3196dbfbfc75e871bfb5e
   background-color: #f2f2f2;
 }
 
@@ -220,11 +215,7 @@
 }
 .feynman__title {
   z-index: 1;
-<<<<<<< HEAD
   margin: 100px auto 0px;
-=======
-  margin: 100px 0px 0px;
->>>>>>> 302defa4f7dc0784f1c3196dbfbfc75e871bfb5e
   text-align: center;
   max-width: 648px;
   font-size: 120px;
