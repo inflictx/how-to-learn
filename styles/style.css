@@ -154,7 +154,7 @@
   margin: 20px auto 0px;
 }
 
-.heading {
+.table__heading {
   font-size: 24px;
   line-height: 1.15;
   font-weight: 600;
@@ -196,7 +196,7 @@
 .feynman {
   position: relative;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   height: 890px;
   background-color: #f2f2f2;
 }
@@ -206,7 +206,8 @@
 }
 
 .feynman__title {
-  margin-top: 100px;
+  z-index: 1;
+  margin: 100px auto 0px;
   text-align: center;
   width: 648px;
   font-size: 120px;
@@ -215,6 +216,7 @@
 }
 
 .feynman__subtitle {
+  z-index: 1;
   text-align: center;
   margin-top: 70px;
   font-size: 36px;
