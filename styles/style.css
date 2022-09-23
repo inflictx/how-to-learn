@@ -292,12 +292,11 @@
   min-height: 250px;
   margin: 0px auto;
   width: 90%;
-
   display: flex;
   justify-content: space-between;
 }
 
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
@@ -316,18 +315,21 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin: 0px 0px 20px 0px;
 }
 
 .footer__column-links {
+  list-style-type: none;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   color: #f2f2f2;
   text-decoration: none;
 }
-
-.footer-content {
+.footer__social-icon {
+  margin-right: 10px;
+}
+.footer__column {
   list-style: none;
   text-align: left;
 }
