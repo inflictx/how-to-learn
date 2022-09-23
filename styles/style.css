@@ -37,7 +37,7 @@
   width: 228px;
   height: 32px;
 }
-.logo__place-header {
+.logo_place_header {
   top: 30px;
   left: 64px;
   z-index: 5;
@@ -176,7 +176,7 @@
   line-height: 1.2;
   font-weight: normal;
   text-align: left;
-  margin: 0px 0px 20px;
+  margin: 0px 0px;
 }
 
 .second-table__text {
@@ -254,6 +254,7 @@
 /* kaufman */
 
 .kaufman {
+  z-index: 1;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -262,14 +263,10 @@
   padding: 90px 0px;
 }
 
-.table__cell-theme-dark {
+.table__cell_theme_dark {
   margin-top: 80px;
   width: 200px;
   z-index: 2;
-}
-
-.table__text_theme-dark {
-  margin: 0px 0px;
 }
 
 .kaufman__triangle {
@@ -280,7 +277,7 @@
   width: 877px;
   height: 877px;
   right: -210px;
-  z-index: 1;
+  z-index: -1;
 }
 
 /* footer */
@@ -333,35 +330,4 @@
 .footer-content {
   list-style: none;
   text-align: left;
-}
-
-.vk::before {
-  content: "";
-  display: inline-block;
-  background: url("/images/vk_color_white.svg") center center no-repeat;
-  background-size: contain;
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
-}
-.facebook::before {
-  content: "";
-  display: inline-block;
-  background: url("/images/facebook_color_white.svg") center center no-repeat;
-  background-size: contain;
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
-}
-.inst::before {
-  content: "";
-  display: inline-block;
-  background: url("/images/instagram_color_white.svg") center center no-repeat;
-  background-size: contain;
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
-}
-.end__nav {
-  margin-bottom: 18px;
 }
