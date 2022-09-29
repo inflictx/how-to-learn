@@ -1,4 +1,5 @@
 .header {
+  overflow: hidden;
   background-color: #f2f2f2;
   position: relative;
   height: 100vh;
